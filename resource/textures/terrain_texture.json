@@ -317,6 +317,9 @@
     "aspen_leaves": {
       "textures": "textures/blocks/aspen_leaves"
     },
+    "yellow_aspen_leaves": {
+      "textures": "textures/blocks/yellow_aspen_leaves"
+    },
     "aspen_sapling": {
       "textures": "textures/blocks/aspen_sapling"
     },

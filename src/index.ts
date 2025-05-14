@@ -9,3 +9,4 @@ import "./natures-spirit/blocks/LargePlant";
 import "./natures-spirit/blocks/Door";
 import "./natures-spirit/blocks/Sand"
 import "./natures-spirit/blocks/Wall";
+import "./natures-spirit/blocks/Leaves";

@@ -1,0 +1,59 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:aspen_leaves",
+      "menu_category": {
+        "category": "nature",
+        "group": "minecraft:itemGroup.name.leaves"
+      },
+      "states": {
+        "natures_spirit:persistent_bit": [false, true],
+        "natures_spirit:placed": [false, true]
+      }
+    },
+    "components": {
+      "tag:leaf": {},
+      "tag:minecraft:is_shear_item_destructible": {},
+      "minecraft:custom_components": ["natures_spirit:on_random_tick"],
+      "minecraft:loot": "loot_tables/blocks/wood/aspen/aspen_leaves.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.2
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3,
+        "item_specific_speeds": [
+          {
+            "item": "minecraft:shears",
+            "destroy_speed": 0.01
+          }
+        ]
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "aspen_leaves",
+          "render_method": "alpha_test_single_sided_to_opaque",
+          "tint_method": "default_foliage"
+        }
+      }
+    }
+  }
+}

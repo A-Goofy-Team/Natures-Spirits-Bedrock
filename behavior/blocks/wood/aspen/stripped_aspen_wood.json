@@ -1,0 +1,76 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:stripped_aspen_wood",
+      "menu_category": {
+        "category": "nature",
+        "group": "minecraft:itemGroup.name.wood"
+      },
+      "states": {
+        "natures_spirit:block_face": [0, 1, 2]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('natures_spirit:block_face') == 0",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 0, 0]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:block_face') == 1",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [90, 0, 90]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:block_face') == 2",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [0, 0, 90]
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:wood": {},
+      "tag:minecraft:is_axe_item_destructible": {},
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:custom_components": [
+        "natures_spirit:block_face_3",
+        "natures_spirit:log"
+      ],
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": { "tags": "q.all_tags('minecraft:is_axe')" },
+            "destroy_speed": 1.5
+          }
+        ]
+      },
+
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "stripped_aspen_log"
+        }
+      }
+    }
+  }
+}

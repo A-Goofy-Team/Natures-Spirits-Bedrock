@@ -158,7 +158,8 @@ tile.natures_spirit:aspen_trapdoor.name=Aspen Trapdoor
 tile.natures_spirit:aspen_fence.name=Aspen Fence
 tile.natures_spirit:aspen_fence_gate.name=Aspen Fence Gate
 tile.natures_spirit:aspen_leaves.name=Aspen Leaves
-item.natures_spirit:aspen_door_item=Aspen Door
+tile.natures_spirit:yellow_aspen_leaves.name=Yellow Aspen Leaves
+item.natures_spirit:aspen_door=Aspen Door
 
 tile.natures_spirit:pink_sand.name=Pink Sand
 tile.natures_spirit:pink_sandstone.name=Pink Sandstone

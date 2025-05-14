@@ -481,6 +481,9 @@
   "natures_spirit:aspen_leaves": {
     "sound": "grass"
   },
+  "natures_spirit:yellow_aspen_leaves": {
+    "sound": "grass"
+  },
   "natures_spirit:aspen_sapling": {
     "sound": "grass"
   },

@@ -1,0 +1,270 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:aspen_fence",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.fence"
+      },
+      "states": {
+        "natures_spirit:north": [false, true],
+        "natures_spirit:south": [false, true],
+        "natures_spirit:east": [false, true],
+        "natures_spirit:west": [false, true]
+      }
+    },
+    "components": {
+      "tag:wood": {},
+      "tag:fence": {},
+      "tag:minecraft:is_axe_item_destructible": {},
+      "minecraft:transformation": {
+        "translation": [0, 0.15, 0],
+        "scale": [1.3, 1.3, 1.3]
+      },
+      "minecraft:flammable": {
+        "destroy_chance_modifier": 45,
+        "catch_chance_modifier": 80
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3,
+        "item_specific_speeds": [
+          {
+            "item": { "tags": "q.all_tags('minecraft:is_axe')" },
+            "destroy_speed": 1.5
+          }
+        ]
+      },
+      "minecraft:collision_box": {
+        "origin": [-2, 0, -2],
+        "size": [4, 16, 4]
+      },
+      "minecraft:selection_box": {
+        "origin": [-1.55, 0, -1.55],
+        "size": [3.1, 12.325, 3.1]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "aspen_planks"
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.fence.display",
+        "material_instances": {
+          "*": {
+            "texture": "aspen_planks"
+          }
+        }
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.fence",
+        "bone_visibility": {
+          "north": "q.block_state('natures_spirit:north')",
+          "south": "q.block_state('natures_spirit:south')",
+          "east": "q.block_state('natures_spirit:east')",
+          "west": "q.block_state('natures_spirit:west')"
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('natures_spirit:north')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -8],
+            "size": [4, 16, 10]
+          },
+          "minecraft:selection_box": {
+            "origin": [-1.55, 0, -6.175],
+            "size": [3.1, 12.325, 7.725]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:south')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -2],
+            "size": [4, 16, 10]
+          },
+          "minecraft:selection_box": {
+            "origin": [-1.55, 0, -1.55],
+            "size": [3.1, 12.325, 7.725]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:east')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -2],
+            "size": [10, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-6.175, 0, -1.55],
+            "size": [7.725, 12.325, 3.1]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:west')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -2],
+            "size": [10, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-1.55, 0, -1.55],
+            "size": [7.725, 12.325, 3.1]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:north') && q.block_state('natures_spirit:south')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -8],
+            "size": [4, 16, 16]
+          },
+          "minecraft:selection_box": {
+            "origin": [-1.55, 0, -6.175],
+            "size": [3.1, 12.325, 12.35]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:east') && q.block_state('natures_spirit:west')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -2],
+            "size": [16, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-6.175, 0, -1.55],
+            "size": [12.35, 12.325, 3.1]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:north') && q.block_state('natures_spirit:west')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -2],
+            "size": [8, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-1.55, 0, -6.175],
+            "size": [7.725, 12.325, 7.725]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:north') && q.block_state('natures_spirit:east')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-8, 0, -2],
+            "size": [8, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-6.175, 0, -6.175],
+            "size": [7.725, 12.325, 7.725]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:south') && q.block_state('natures_spirit:east')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -2],
+            "size": [8, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-6.175, 0, -1.55],
+            "size": [7.725, 12.325, 7.725]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:south') && q.block_state('natures_spirit:west')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -2],
+            "size": [8, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-1.55, 0, -1.55],
+            "size": [7.725, 12.325, 7.725]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:north') && q.block_state('natures_spirit:west') && q.block_state('natures_spirit:east')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -2],
+            "size": [4, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-6.175, 0, -6.175],
+            "size": [12.35, 12.325, 7.725]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:north') && q.block_state('natures_spirit:south') && q.block_state('natures_spirit:east')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -2],
+            "size": [4, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-6.175, 0, -6.175],
+            "size": [7.725, 12.325, 12.35]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:north') && q.block_state('natures_spirit:south') && q.block_state('natures_spirit:west')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -2],
+            "size": [4, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-1.55, 0, -6.175],
+            "size": [7.725, 12.325, 12.35]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:south') && q.block_state('natures_spirit:west') && q.block_state('natures_spirit:east')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -2],
+            "size": [4, 16, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-6.175, 0, -1.55],
+            "size": [12.35, 12.325, 7.725]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:east') && q.block_state('natures_spirit:west') && q.block_state('natures_spirit:north') && q.block_state('natures_spirit:south')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-2, 0, -2],
+            "size": [4, 12.325, 4]
+          },
+          "minecraft:selection_box": {
+            "origin": [-6.175, 0, -6.175],
+            "size": [12.35, 12.325, 12.35]
+          }
+        }
+      }
+    ]
+  }
+}
