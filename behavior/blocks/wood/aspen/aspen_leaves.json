@@ -15,7 +15,7 @@
     "components": {
       "tag:leaf": {},
       "tag:minecraft:is_shear_item_destructible": {},
-      "minecraft:custom_components": ["natures_spirit:on_random_tick"],
+      // "minecraft:custom_components": ["natures_spirit:on_random_tick"],
       "minecraft:loot": "loot_tables/blocks/wood/aspen/aspen_leaves.json",
       "minecraft:flammable": {
         "catch_chance_modifier": 5,
