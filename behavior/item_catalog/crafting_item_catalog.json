@@ -1,0 +1,116 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "construction",
+        "groups": [
+          {
+            "group_identifier": {
+              "name": "item_group.natures_spirit:chalk",
+              "icon": "natures_spirit:white_chalk"
+            },
+            "items": [
+              "natures_spirit:white_chalk",
+              "natures_spirit:blue_chalk",
+              "natures_spirit:yellow_chalk",
+              "natures_spirit:red_chalk",
+              "natures_spirit:purple_chalk",
+              "natures_spirit:pink_chalk",
+              "natures_spirit:orange_chalk",
+              "natures_spirit:magenta_chalk",
+              "natures_spirit:lime_chalk",
+              "natures_spirit:light_gray_chalk",
+              "natures_spirit:light_blue_chalk",
+              "natures_spirit:green_chalk",
+              "natures_spirit:gray_chalk",
+              "natures_spirit:cyan_chalk",
+              "natures_spirit:brown_chalk",
+              "natures_spirit:black_chalk"
+            ]
+          },
+          {
+            "group_identifier": {
+              "name": "item_group.natures_spirit:kaolin",
+              "icon": "natures_spirit:kaolin"
+            },
+            "items": [
+              "natures_spirit:kaolin",
+              "natures_spirit:white_kaolin",
+              "natures_spirit:blue_kaolin",
+              "natures_spirit:yellow_kaolin",
+              "natures_spirit:red_kaolin",
+              "natures_spirit:purple_kaolin",
+              "natures_spirit:pink_kaolin",
+              "natures_spirit:orange_kaolin",
+              "natures_spirit:magenta_kaolin",
+              "natures_spirit:lime_kaolin",
+              "natures_spirit:light_gray_kaolin",
+              "natures_spirit:light_blue_kaolin",
+              "natures_spirit:green_kaolin",
+              "natures_spirit:gray_kaolin",
+              "natures_spirit:cyan_kaolin",
+              "natures_spirit:brown_kaolin",
+              "natures_spirit:black_kaolin"
+            ]
+          },
+          {
+            "group_identifier": {
+              "name": "item_group.natures_spirit:kaolin_bricks",
+              "icon": "natures_spirit:kaolin_bricks"
+            },
+            "items": [
+              "natures_spirit:kaolin_bricks",
+              "natures_spirit:white_kaolin_bricks",
+              "natures_spirit:blue_kaolin_bricks",
+              "natures_spirit:yellow_kaolin_bricks",
+              "natures_spirit:red_kaolin_bricks",
+              "natures_spirit:purple_kaolin_bricks",
+              "natures_spirit:pink_kaolin_bricks",
+              "natures_spirit:orange_kaolin_bricks",
+              "natures_spirit:magenta_kaolin_bricks",
+              "natures_spirit:lime_kaolin_bricks",
+              "natures_spirit:light_gray_kaolin_bricks",
+              "natures_spirit:light_blue_kaolin_bricks",
+              "natures_spirit:green_kaolin_bricks",
+              "natures_spirit:gray_kaolin_bricks",
+              "natures_spirit:cyan_kaolin_bricks",
+              "natures_spirit:brown_kaolin_bricks",
+              "natures_spirit:black_kaolin_bricks"
+            ]
+          }
+        ]
+      },
+      {
+        "category_name": "items",
+        "groups": [
+          {
+            "group_identifier": {
+              "name": "item_group.natures_spirit:paper_lantern",
+              "icon": "natures_spirit:paper_lantern"
+            },
+            "items": [
+              "natures_spirit:paper_lantern",
+              "natures_spirit:white_paper_lantern",
+              "natures_spirit:blue_paper_lantern",
+              "natures_spirit:yellow_paper_lantern",
+              "natures_spirit:red_paper_lantern",
+              "natures_spirit:purple_paper_lantern",
+              "natures_spirit:pink_paper_lantern",
+              "natures_spirit:orange_paper_lantern",
+              "natures_spirit:magenta_paper_lantern",
+              "natures_spirit:lime_paper_lantern",
+              "natures_spirit:light_gray_paper_lantern",
+              "natures_spirit:light_blue_paper_lantern",
+              "natures_spirit:green_paper_lantern",
+              "natures_spirit:gray_paper_lantern",
+              "natures_spirit:cyan_paper_lantern",
+              "natures_spirit:brown_paper_lantern",
+              "natures_spirit:black_paper_lantern"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

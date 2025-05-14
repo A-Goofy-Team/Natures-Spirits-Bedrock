@@ -1,0 +1,97 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:gray_kaolin_bricks_slab",
+      "menu_category": {
+        "category": "construction",
+        "group": "minecraft:itemGroup.name.slab"
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": ["minecraft:vertical_half"]
+        }
+      },
+      "states": {
+        "natures_spirit:double": [false, true]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('natures_spirit:double')",
+        "components": {
+          "minecraft:collision_box": { "size": [16, 8, 16] },
+          "minecraft:selection_box": { "size": [16, 8, 16] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:vertical_half') == 'top' && !q.block_state('natures_spirit:double')",
+        "components": {
+          "minecraft:collision_box": {
+            "origin": [-8, 8, -8],
+            "size": [16, 8, 16]
+          },
+          "minecraft:selection_box": {
+            "origin": [-8, 8, -8],
+            "size": [16, 8, 16]
+          },
+          "minecraft:liquid_detection": {
+            "detection_rules": [
+              {
+                "can_contain_liquid": true,
+                "stops_liquid_flowing_from_direction": ["up"]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('natures_spirit:double')",
+        "components": {
+          "minecraft:geometry": {
+            "identifier": "minecraft:geometry.full_block",
+            "minecraft:loot": "loot_tables/blocks/decoration/gray_kaolin_bricks_double_slab.json"
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:stone": {},
+      "tag:slab_stone": {},
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "minecraft:custom_components": ["natures_spirit:slab"],
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 10,
+        "item_specific_speeds": [
+          {
+            "item": { "tags": "q.all_tags('minecraft:is_pickaxe')" },
+            "destroy_speed": 1.5
+          }
+        ]
+      },
+      "minecraft:geometry": {
+        "identifier": "geometry.slab",
+        "bone_visibility": {
+          "bottom": "q.block_state('minecraft:vertical_half') == 'bottom'",
+          "top": "q.block_state('minecraft:vertical_half') == 'top'"
+        }
+      },
+      "minecraft:item_visual": {
+        "geometry": "geometry.slab.display",
+        "material_instances": {
+          "*": {
+            "texture": "gray_kaolin_bricks"
+          }
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "gray_kaolin_bricks"
+        }
+      }
+    }
+  }
+}
