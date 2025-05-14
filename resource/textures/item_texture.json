@@ -1,0 +1,93 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "paper_lantern": {
+      "textures": "textures/items/paper_lantern"
+    },
+    "white_paper_lantern": {
+      "textures": "textures/items/white_paper_lantern"
+    },
+    "blue_paper_lantern": {
+      "textures": "textures/items/blue_paper_lantern"
+    },
+    "yellow_paper_lantern": {
+      "textures": "textures/items/yellow_paper_lantern"
+    },
+    "red_paper_lantern": {
+      "textures": "textures/items/red_paper_lantern"
+    },
+    "purple_paper_lantern": {
+      "textures": "textures/items/purple_paper_lantern"
+    },
+    "pink_paper_lantern": {
+      "textures": "textures/items/pink_paper_lantern"
+    },
+    "orange_paper_lantern": {
+      "textures": "textures/items/orange_paper_lantern"
+    },
+    "magenta_paper_lantern": {
+      "textures": "textures/items/magenta_paper_lantern"
+    },
+    "lime_paper_lantern": {
+      "textures": "textures/items/lime_paper_lantern"
+    },
+    "light_gray_paper_lantern": {
+      "textures": "textures/items/light_gray_paper_lantern"
+    },
+    "light_blue_paper_lantern": {
+      "textures": "textures/items/light_blue_paper_lantern"
+    },
+    "green_paper_lantern": {
+      "textures": "textures/items/green_paper_lantern"
+    },
+    "gray_paper_lantern": {
+      "textures": "textures/items/gray_paper_lantern"
+    },
+    "cyan_paper_lantern": {
+      "textures": "textures/items/cyan_paper_lantern"
+    },
+    "brown_paper_lantern": {
+      "textures": "textures/items/brown_paper_lantern"
+    },
+    "black_paper_lantern": {
+      "textures": "textures/items/black_paper_lantern"
+    },
+    "chalk_powder": {
+      "textures": "textures/items/chalk_powder"
+    },
+    "redwood_sapling": {
+      "textures": "textures/items/redwood_sapling"
+    },
+    "redwood_door": {
+      "textures": "textures/items/redwood_door"
+    },
+    "lush_fern": {
+      "textures": "textures/items/lush_fern"
+    },
+    "blue_iris": {
+      "textures": "textures/blocks/blue_iris"
+    },
+    "yellow_wildflower": {
+      "textures": "textures/items/yellow_wildflower"
+    },
+    "large_lush_fern": {
+      "textures": "textures/items/large_lush_fern"
+    },
+    "aspen_sapling": {
+      "textures": "textures/blocks/aspen_sapling"
+    },
+    "aspen_door": {
+      "textures": "textures/items/aspen_door"
+    },
+    "flaxen_fern": {
+      "textures": "textures/blocks/flaxen_fern"
+    },
+    "marigold": {
+      "textures": "textures/blocks/marigold_top"
+    },
+    "large_flaxen_fern": {
+      "textures": "textures/blocks/large_flaxen_fern_top"
+    }
+  },
+  "texture_name": "atlas.items"
+}

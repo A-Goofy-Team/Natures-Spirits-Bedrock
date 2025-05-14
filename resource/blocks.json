@@ -1,0 +1,524 @@
+{
+  "format_version": "1.1.0",
+  "natures_spirit:paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:white_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:blue_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:yellow_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:red_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:purple_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:pink_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:orange_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:magenta_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:lime_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:light_gray_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:light_blue_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:green_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:gray_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:cyan_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:brown_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:black_paper_lantern": {
+    "sound": "lantern"
+  },
+  "natures_spirit:kaolin": {
+    "sound": "stone",
+    "textures": "kaolin"
+  },
+  "natures_spirit:white_kaolin": {
+    "sound": "stone",
+    "textures": "white_kaolin"
+  },
+  "natures_spirit:blue_kaolin": {
+    "sound": "stone",
+    "textures": "blue_kaolin"
+  },
+  "natures_spirit:yellow_kaolin": {
+    "sound": "stone",
+    "textures": "yellow_kaolin"
+  },
+  "natures_spirit:red_kaolin": {
+    "sound": "stone",
+    "textures": "red_kaolin"
+  },
+  "natures_spirit:purple_kaolin": {
+    "sound": "stone",
+    "textures": "purple_kaolin"
+  },
+  "natures_spirit:pink_kaolin": {
+    "sound": "stone",
+    "textures": "pink_kaolin"
+  },
+  "natures_spirit:orange_kaolin": {
+    "sound": "stone",
+    "textures": "orange_kaolin"
+  },
+  "natures_spirit:magenta_kaolin": {
+    "sound": "stone",
+    "textures": "magenta_kaolin"
+  },
+  "natures_spirit:lime_kaolin": {
+    "sound": "stone",
+    "textures": "lime_kaolin"
+  },
+  "natures_spirit:light_gray_kaolin": {
+    "sound": "stone",
+    "textures": "light_gray_kaolin"
+  },
+  "natures_spirit:light_blue_kaolin": {
+    "sound": "stone",
+    "textures": "light_blue_kaolin"
+  },
+  "natures_spirit:green_kaolin": {
+    "sound": "stone",
+    "textures": "green_kaolin"
+  },
+  "natures_spirit:gray_kaolin": {
+    "sound": "stone",
+    "textures": "gray_kaolin"
+  },
+  "natures_spirit:cyan_kaolin": {
+    "sound": "stone",
+    "textures": "cyan_kaolin"
+  },
+  "natures_spirit:brown_kaolin": {
+    "sound": "stone",
+    "textures": "brown_kaolin"
+  },
+  "natures_spirit:black_kaolin": {
+    "sound": "stone",
+    "textures": "black_kaolin"
+  },
+  "natures_spirit:kaolin_bricks": {
+    "sound": "stone",
+    "textures": "kaolin_bricks"
+  },
+  "natures_spirit:white_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "white_kaolin_bricks"
+  },
+  "natures_spirit:blue_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "blue_kaolin_bricks"
+  },
+  "natures_spirit:yellow_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "yellow_kaolin_bricks"
+  },
+  "natures_spirit:red_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "red_kaolin_bricks"
+  },
+  "natures_spirit:purple_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "purple_kaolin_bricks"
+  },
+  "natures_spirit:pink_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "pink_kaolin_bricks"
+  },
+  "natures_spirit:orange_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "orange_kaolin_bricks"
+  },
+  "natures_spirit:magenta_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "magenta_kaolin_bricks"
+  },
+  "natures_spirit:lime_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "lime_kaolin_bricks"
+  },
+  "natures_spirit:light_gray_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "light_gray_kaolin_bricks"
+  },
+  "natures_spirit:light_blue_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "light_blue_kaolin_bricks"
+  },
+  "natures_spirit:green_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "green_kaolin_bricks"
+  },
+  "natures_spirit:gray_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "gray_kaolin_bricks"
+  },
+  "natures_spirit:cyan_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "cyan_kaolin_bricks"
+  },
+  "natures_spirit:brown_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "brown_kaolin_bricks"
+  },
+  "natures_spirit:black_kaolin_bricks": {
+    "sound": "stone",
+    "textures": "black_kaolin_bricks"
+  },
+  "natures_spirit:white_chalk": {
+    "sound": "stone",
+    "textures": "white_chalk"
+  },
+  "natures_spirit:blue_chalk": {
+    "sound": "stone",
+    "textures": "blue_chalk"
+  },
+  "natures_spirit:yellow_chalk": {
+    "sound": "stone",
+    "textures": "yellow_chalk"
+  },
+  "natures_spirit:red_chalk": {
+    "sound": "stone",
+    "textures": "red_chalk"
+  },
+  "natures_spirit:purple_chalk": {
+    "sound": "stone",
+    "textures": "purple_chalk"
+  },
+  "natures_spirit:pink_chalk": {
+    "sound": "stone",
+    "textures": "pink_chalk"
+  },
+  "natures_spirit:orange_chalk": {
+    "sound": "stone",
+    "textures": "orange_chalk"
+  },
+  "natures_spirit:magenta_chalk": {
+    "sound": "stone",
+    "textures": "magenta_chalk"
+  },
+  "natures_spirit:lime_chalk": {
+    "sound": "stone",
+    "textures": "lime_chalk"
+  },
+  "natures_spirit:light_gray_chalk": {
+    "sound": "stone",
+    "textures": "light_gray_chalk"
+  },
+  "natures_spirit:light_blue_chalk": {
+    "sound": "stone",
+    "textures": "light_blue_chalk"
+  },
+  "natures_spirit:green_chalk": {
+    "sound": "stone",
+    "textures": "green_chalk"
+  },
+  "natures_spirit:gray_chalk": {
+    "sound": "stone",
+    "textures": "gray_chalk"
+  },
+  "natures_spirit:cyan_chalk": {
+    "sound": "stone",
+    "textures": "cyan_chalk"
+  },
+  "natures_spirit:brown_chalk": {
+    "sound": "stone",
+    "textures": "brown_chalk"
+  },
+  "natures_spirit:black_chalk": {
+    "sound": "stone",
+    "textures": "black_chalk"
+  },
+  "natures_spirit:white_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:blue_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:yellow_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:red_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:purple_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:pink_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:orange_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:magenta_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:lime_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:light_gray_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:light_blue_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:green_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:gray_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:cyan_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:brown_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:black_chalk_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:white_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:blue_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:yellow_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:red_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:purple_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:pink_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:orange_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:magenta_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:lime_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:light_gray_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:light_blue_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:green_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:gray_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:cyan_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:brown_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:black_kaolin_bricks_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:white_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:blue_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:yellow_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:red_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:purple_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:pink_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:orange_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:magenta_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:lime_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:light_gray_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:light_blue_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:green_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:gray_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:cyan_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:brown_kaolin_slab": {
+    "sound": "stone"
+  },
+  "natures_spirit:black_kaolin_slab": {
+    "sound": "stone"
+  },
+  //Redwood Forest
+  "natures_spirit:redwood_log": {
+    "sound": "wood"
+  },
+  "natures_spirit:stripped_redwood_log": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_wood": {
+    "sound": "wood"
+  },
+  "natures_spirit:stripped_redwood_wood": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_planks": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_trapdoor": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_slab": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_fence": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_fence_gate": {
+    "sound": "wood"
+  },
+  "natures_spirit:redwood_leaves": {
+    "sound": "grass"
+  },
+  "natures_spirit:redwood_sapling": {
+    "sound": "grass"
+  },
+  "natures_spirit:redwood_door": {
+    "sound": "wood"
+  },
+  "natures_spirit:lush_fern": {
+    "sound": "grass"
+  },
+  "natures_spirit:blue_iris": {
+    "sound": "grass"
+  },
+  "natures_spirit:yellow_wildflower": {
+    "sound": "grass"
+  },
+  "natures_spirit:large_lush_fern": {
+    "sound": "grass"
+  },
+  //Aspen Forest
+  "natures_spirit:aspen_log": {
+    "sound": "wood"
+  },
+  "natures_spirit:stripped_aspen_log": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_wood": {
+    "sound": "wood"
+  },
+  "natures_spirit:stripped_aspen_wood": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_planks": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_trapdoor": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_slab": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_fence": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_fence_gate": {
+    "sound": "wood"
+  },
+  "natures_spirit:aspen_leaves": {
+    "sound": "grass"
+  },
+  "natures_spirit:aspen_sapling": {
+    "sound": "grass"
+  },
+  "natures_spirit:aspen_door": {
+    "sound": "wood"
+  },
+  "natures_spirit:flaxen_fern": {
+    "sound": "grass"
+  },
+  "natures_spirit:large_flaxen_fern": {
+    "sound": "grass"
+  },
+  "natures_spirit:marigold": {
+    "sound": "grass"
+  },
+  // Drylands
+  "natures_spirit:pink_sand": {
+    "sound": "sand",
+    "textures": "pink_sand"
+  },
+  "natures_spirit:pink_sandstone_bricks": {
+    "sound": "stone",
+    "textures": "pink_sandstone_bricks"
+  },
+  "natures_spirit:smooth_pink_sandstone": {
+    "sound": "stone",
+    "textures": "pink_sandstone_top"
+  },
+  "natures_spirit:pink_sandstone": {
+    "sound": "stone"
+  },
+  "natures_spirit:chiseled_pink_sandstone": {
+    "sound": "stone"
+  },
+  "natures_spirit:cut_pink_sandstone": {
+    "sound": "stone"
+  },
+  "natures_spirit:pink_sandstone_wall": {
+    "sound": "stone"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["A-Goofy-Team"],
+    "license": "AGT License",
+    "url": "https://github.com/A-Goofy-Team/Natures-Spirit"
+  },
+  "header": {
+    "name": "Natures' Spirit (v1.0.0)",
+    "description": "A Fresh Start",
+    "min_engine_version": [1, 21, 0],
+    "uuid": "973bbbfc-03c6-4344-919f-2e92b8b599ff",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "60d199b7-a93d-4c46-bac2-4262cdb01b0b",
+      "version": [1, 0, 0]
+    },
+    {
+      "version": [1, 0, 0],
+      "uuid": "8623a0d3-0b2a-4fb2-9e64-4360fb2f900f",
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "12f0961a-da3b-4168-bbac-2da6b9ae4a37",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.19.0"
+    }
+  ]
+}

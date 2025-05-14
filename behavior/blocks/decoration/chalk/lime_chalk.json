@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:block": {
+    "description": {
+      "identifier": "natures_spirit:lime_chalk"
+    },
+    "components": {
+      "tag:stone": {},
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 10,
+        "item_specific_speeds": [
+          {
+            "item": { "tags": "q.all_tags('minecraft:is_pickaxe')" },
+            "destroy_speed": 1.5
+          }
+        ]
+      },
+      "minecraft:geometry": {
+        "identifier": "minecraft:geometry.full_block"
+      }
+    }
+  }
+}

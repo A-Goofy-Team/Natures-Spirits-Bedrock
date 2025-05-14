@@ -1,0 +1,11 @@
+import "./natures-spirit/blocks/Direction";
+import "./natures-spirit/blocks/Fence";
+import "./natures-spirit/blocks/FenceGate";
+import "./natures-spirit/blocks/Slab";
+import "./natures-spirit/blocks/Trapdoor";
+import "./natures-spirit/blocks/Sapling";
+import "./natures-spirit/blocks/Log";
+import "./natures-spirit/blocks/LargePlant";
+import "./natures-spirit/blocks/Door";
+import "./natures-spirit/blocks/Sand"
+import "./natures-spirit/blocks/Wall";

@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": ["A-Goofy-Team"],
+    "license": "AGT License",
+    "url": "https://github.com/A-Goofy-Team/Natures-Spirit"
+  },
+  "header": {
+    "name": "Natures' Spirit(v1.0.0)",
+    "description": "A Fresh Start",
+    "min_engine_version": [1, 21, 0],
+    "uuid": "12f0961a-da3b-4168-bbac-2da6b9ae4a37",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "d6599826-41c8-42e8-8181-1babf99bc062",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "973bbbfc-03c6-4344-919f-2e92b8b599ff",
+      "version": [1, 0, 0]
+    }
+  ]
+}
