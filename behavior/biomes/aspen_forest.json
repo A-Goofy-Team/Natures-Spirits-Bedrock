@@ -6,10 +6,10 @@
 
     "description": {
 
-      "identifier": "natures_spirit::aspen_forest"
+      "identifier": "natures_spirit:aspen_forest"
 
     },
-
+    
     "components": {
 
       "minecraft:climate": {
